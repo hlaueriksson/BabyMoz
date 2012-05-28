@@ -1,0 +1,33 @@
+<set description="Swedish letters" locale="sv">
+    <audio filename="set" duration="2000"/>
+    <welcome filename="welcome"/>
+    <symbol text="A"/>
+    <symbol text="B"/>
+    <symbol text="C"/>
+    <symbol text="D"/>
+    <symbol text="E"/>
+    <symbol text="F"/>
+    <symbol text="G"/>
+    <symbol text="H"/>
+    <symbol text="I"/>
+    <symbol text="J"/>
+    <symbol text="K"/>
+    <symbol text="L"/>
+    <symbol text="M"/>
+    <symbol text="N"/>
+    <symbol text="O"/>
+    <symbol text="P"/>
+    <symbol text="Q"/>
+    <symbol text="R"/>
+    <symbol text="S"/>
+    <symbol text="T"/>
+    <symbol text="U"/>
+    <symbol text="V"/>
+    <symbol text="W"/>
+    <symbol text="X"/>
+    <symbol text="Y"/>
+    <symbol text="Z"/>
+    <symbol text="Å"/>
+    <symbol text="Ä"/>
+    <symbol text="Ö"/>
+</set>

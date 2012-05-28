@@ -1,0 +1,1 @@
+adb -d install ..\out\production\BabyMozSwedishAbc\BabyMozSwedishAbc.apk
