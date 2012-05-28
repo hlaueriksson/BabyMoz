@@ -1,0 +1,7 @@
+<set description="Test set" locale="en">
+    <audio filename="set" duration="2000" />
+    <welcome filename="welcome" />
+    <symbol text="A" />
+    <symbol text="B" />
+    <symbol text="C" />
+</set>

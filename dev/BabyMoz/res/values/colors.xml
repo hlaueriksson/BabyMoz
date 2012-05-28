@@ -1,0 +1,298 @@
+<resources>
+    <array name="colors">
+        <!--AliceBlue  -->
+        <item>#F0F8FF</item>
+        <!--AntiqueWhite  -->
+        <item>#FAEBD7</item>
+        <!--Aqua  -->
+        <item>#00FFFF</item>
+        <!--Aquamarine  -->
+        <item>#7FFFD4</item>
+        <!--Azure  -->
+        <item>#F0FFFF</item>
+        <!--Beige  -->
+        <item>#F5F5DC</item>
+        <!--Bisque  -->
+        <item>#FFE4C4</item>
+        <!--Black  -->
+        <item>#000000</item>
+        <!--BlanchedAlmond  -->
+        <item>#FFEBCD</item>
+        <!--Blue  -->
+        <item>#0000FF</item>
+        <!--BlueViolet  -->
+        <item>#8A2BE2</item>
+        <!--Brown  -->
+        <item>#A52A2A</item>
+        <!--BurlyWood  -->
+        <item>#DEB887</item>
+        <!--CadetBlue  -->
+        <item>#5F9EA0</item>
+        <!--Chartreuse  -->
+        <item>#7FFF00</item>
+        <!--Chocolate  -->
+        <item>#D2691E</item>
+        <!--Coral  -->
+        <item>#FF7F50</item>
+        <!--CornflowerBlue  -->
+        <item>#6495ED</item>
+        <!--Cornsilk  -->
+        <item>#FFF8DC</item>
+        <!--Crimson  -->
+        <item>#DC143C</item>
+        <!--Cyan  -->
+        <item>#00FFFF</item>
+        <!--DarkBlue  -->
+        <item>#00008B</item>
+        <!--DarkCyan  -->
+        <item>#008B8B</item>
+        <!--DarkGoldenRod  -->
+        <item>#B8860B</item>
+        <!--DarkGray  -->
+        <item>#A9A9A9</item>
+        <!--DarkGrey  -->
+        <item>#A9A9A9</item>
+        <!--DarkGreen  -->
+        <item>#006400</item>
+        <!--DarkKhaki  -->
+        <item>#BDB76B</item>
+        <!--DarkMagenta  -->
+        <item>#8B008B</item>
+        <!--DarkOliveGreen  -->
+        <item>#556B2F</item>
+        <!--Darkorange  -->
+        <item>#FF8C00</item>
+        <!--DarkOrchid  -->
+        <item>#9932CC</item>
+        <!--DarkRed  -->
+        <item>#8B0000</item>
+        <!--DarkSalmon  -->
+        <item>#E9967A</item>
+        <!--DarkSeaGreen  -->
+        <item>#8FBC8F</item>
+        <!--DarkSlateBlue  -->
+        <item>#483D8B</item>
+        <!--DarkSlateGray  -->
+        <item>#2F4F4F</item>
+        <!--DarkSlateGrey  -->
+        <item>#2F4F4F</item>
+        <!--DarkTurquoise  -->
+        <item>#00CED1</item>
+        <!--DarkViolet  -->
+        <item>#9400D3</item>
+        <!--DeepPink  -->
+        <item>#FF1493</item>
+        <!--DeepSkyBlue  -->
+        <item>#00BFFF</item>
+        <!--DimGray  -->
+        <item>#696969</item>
+        <!--DimGrey  -->
+        <item>#696969</item>
+        <!--DodgerBlue  -->
+        <item>#1E90FF</item>
+        <!--FireBrick  -->
+        <item>#B22222</item>
+        <!--FloralWhite  -->
+        <item>#FFFAF0</item>
+        <!--ForestGreen  -->
+        <item>#228B22</item>
+        <!--Fuchsia  -->
+        <item>#FF00FF</item>
+        <!--Gainsboro  -->
+        <item>#DCDCDC</item>
+        <!--GhostWhite  -->
+        <item>#F8F8FF</item>
+        <!--Gold  -->
+        <item>#FFD700</item>
+        <!--GoldenRod  -->
+        <item>#DAA520</item>
+        <!--Gray  -->
+        <item>#808080</item>
+        <!--Grey  -->
+        <item>#808080</item>
+        <!--Green  -->
+        <item>#008000</item>
+        <!--GreenYellow  -->
+        <item>#ADFF2F</item>
+        <!--HoneyDew  -->
+        <item>#F0FFF0</item>
+        <!--HotPink  -->
+        <item>#FF69B4</item>
+        <!--IndianRed   -->
+        <item>#CD5C5C</item>
+        <!--Indigo   -->
+        <item>#4B0082</item>
+        <!--Ivory  -->
+        <item>#FFFFF0</item>
+        <!--Khaki  -->
+        <item>#F0E68C</item>
+        <!--Lavender  -->
+        <item>#E6E6FA</item>
+        <!--LavenderBlush  -->
+        <item>#FFF0F5</item>
+        <!--LawnGreen  -->
+        <item>#7CFC00</item>
+        <!--LemonChiffon  -->
+        <item>#FFFACD</item>
+        <!--LightBlue  -->
+        <item>#ADD8E6</item>
+        <!--LightCoral  -->
+        <item>#F08080</item>
+        <!--LightCyan  -->
+        <item>#E0FFFF</item>
+        <!--LightGoldenRodYellow  -->
+        <item>#FAFAD2</item>
+        <!--LightGray  -->
+        <item>#D3D3D3</item>
+        <!--LightGrey  -->
+        <item>#D3D3D3</item>
+        <!--LightGreen  -->
+        <item>#90EE90</item>
+        <!--LightPink  -->
+        <item>#FFB6C1</item>
+        <!--LightSalmon  -->
+        <item>#FFA07A</item>
+        <!--LightSeaGreen  -->
+        <item>#20B2AA</item>
+        <!--LightSkyBlue  -->
+        <item>#87CEFA</item>
+        <!--LightSlateGray  -->
+        <item>#778899</item>
+        <!--LightSlateGrey  -->
+        <item>#778899</item>
+        <!--LightSteelBlue  -->
+        <item>#B0C4DE</item>
+        <!--LightYellow  -->
+        <item>#FFFFE0</item>
+        <!--Lime  -->
+        <item>#00FF00</item>
+        <!--LimeGreen  -->
+        <item>#32CD32</item>
+        <!--Linen  -->
+        <item>#FAF0E6</item>
+        <!--Magenta  -->
+        <item>#FF00FF</item>
+        <!--Maroon  -->
+        <item>#800000</item>
+        <!--MediumAquaMarine  -->
+        <item>#66CDAA</item>
+        <!--MediumBlue  -->
+        <item>#0000CD</item>
+        <!--MediumOrchid  -->
+        <item>#BA55D3</item>
+        <!--MediumPurple  -->
+        <item>#9370D8</item>
+        <!--MediumSeaGreen  -->
+        <item>#3CB371</item>
+        <!--MediumSlateBlue  -->
+        <item>#7B68EE</item>
+        <!--MediumSpringGreen  -->
+        <item>#00FA9A</item>
+        <!--MediumTurquoise  -->
+        <item>#48D1CC</item>
+        <!--MediumVioletRed  -->
+        <item>#C71585</item>
+        <!--MidnightBlue  -->
+        <item>#191970</item>
+        <!--MintCream  -->
+        <item>#F5FFFA</item>
+        <!--MistyRose  -->
+        <item>#FFE4E1</item>
+        <!--Moccasin  -->
+        <item>#FFE4B5</item>
+        <!--NavajoWhite  -->
+        <item>#FFDEAD</item>
+        <!--Navy  -->
+        <item>#000080</item>
+        <!--OldLace  -->
+        <item>#FDF5E6</item>
+        <!--Olive  -->
+        <item>#808000</item>
+        <!--OliveDrab  -->
+        <item>#6B8E23</item>
+        <!--Orange  -->
+        <item>#FFA500</item>
+        <!--OrangeRed  -->
+        <item>#FF4500</item>
+        <!--Orchid  -->
+        <item>#DA70D6</item>
+        <!--PaleGoldenRod  -->
+        <item>#EEE8AA</item>
+        <!--PaleGreen  -->
+        <item>#98FB98</item>
+        <!--PaleTurquoise  -->
+        <item>#AFEEEE</item>
+        <!--PaleVioletRed  -->
+        <item>#D87093</item>
+        <!--PapayaWhip  -->
+        <item>#FFEFD5</item>
+        <!--PeachPuff  -->
+        <item>#FFDAB9</item>
+        <!--Peru  -->
+        <item>#CD853F</item>
+        <!--Pink  -->
+        <item>#FFC0CB</item>
+        <!--Plum  -->
+        <item>#DDA0DD</item>
+        <!--PowderBlue  -->
+        <item>#B0E0E6</item>
+        <!--Purple  -->
+        <item>#800080</item>
+        <!--Red  -->
+        <item>#FF0000</item>
+        <!--RosyBrown  -->
+        <item>#BC8F8F</item>
+        <!--RoyalBlue  -->
+        <item>#4169E1</item>
+        <!--SaddleBrown  -->
+        <item>#8B4513</item>
+        <!--Salmon  -->
+        <item>#FA8072</item>
+        <!--SandyBrown  -->
+        <item>#F4A460</item>
+        <!--SeaGreen  -->
+        <item>#2E8B57</item>
+        <!--SeaShell  -->
+        <item>#FFF5EE</item>
+        <!--Sienna  -->
+        <item>#A0522D</item>
+        <!--Silver  -->
+        <item>#C0C0C0</item>
+        <!--SkyBlue  -->
+        <item>#87CEEB</item>
+        <!--SlateBlue  -->
+        <item>#6A5ACD</item>
+        <!--SlateGray  -->
+        <item>#708090</item>
+        <!--SlateGrey  -->
+        <item>#708090</item>
+        <!--Snow  -->
+        <item>#FFFAFA</item>
+        <!--SpringGreen  -->
+        <item>#00FF7F</item>
+        <!--SteelBlue  -->
+        <item>#4682B4</item>
+        <!--Tan  -->
+        <item>#D2B48C</item>
+        <!--Teal  -->
+        <item>#008080</item>
+        <!--Thistle  -->
+        <item>#D8BFD8</item>
+        <!--Tomato  -->
+        <item>#FF6347</item>
+        <!--Turquoise  -->
+        <item>#40E0D0</item>
+        <!--Violet  -->
+        <item>#EE82EE</item>
+        <!--Wheat  -->
+        <item>#F5DEB3</item>
+        <!--White  -->
+        <item>#FFFFFF</item>
+        <!--WhiteSmoke  -->
+        <item>#F5F5F5</item>
+        <!--Yellow  -->
+        <item>#FFFF00</item>
+        <!--YellowGreen  -->
+        <item>#9ACD32</item>
+    </array>
+</resources>

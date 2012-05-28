@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Slide from top left corner to middle -->
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+     android:interpolator="@android:anim/decelerate_interpolator">
+    <translate android:fromXDelta="-100%p" android:toXDelta="0"
+               android:fromYDelta="-100%p" android:toYDelta="0"
+               android:duration="@integer/anim_duration_long"/>
+</set>

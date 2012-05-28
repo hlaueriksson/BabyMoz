@@ -1,0 +1,14 @@
+<set description="Swedish numbers 1 - 10" locale="sv">
+    <audio filename="set" duration="2000" />
+    <welcome filename="welcome" />
+    <symbol text="1" />
+    <symbol text="2" />
+    <symbol text="3" />
+    <symbol text="4" />
+    <symbol text="5" />
+    <symbol text="6" />
+    <symbol text="7" />
+    <symbol text="8" />
+    <symbol text="9" />
+    <symbol text="10" />
+</set>

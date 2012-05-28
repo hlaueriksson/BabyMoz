@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Zoom out from top left -->
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+     android:interpolator="@android:anim/decelerate_interpolator">
+    <scale android:fromXScale="10.0" android:toXScale="1.0"
+           android:fromYScale="10.0" android:toYScale="1.0"
+           android:pivotX="60%" android:pivotY="60%"
+           android:duration="@integer/anim_duration_long"/>
+</set>

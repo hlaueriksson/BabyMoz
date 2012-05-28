@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- NOTE: Not an animation -->
+<!-- Repeats the animation for a specified number of cycles -->
+<cycleInterpolator xmlns:android="http://schemas.android.com/apk/res/android"
+                   android:cycles="@integer/anim_cycles_many"/>
