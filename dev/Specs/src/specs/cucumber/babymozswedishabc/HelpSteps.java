@@ -1,4 +1,4 @@
-package specs.cucumber.babymozswedish123;
+package specs.cucumber.babymozswedishabc;
 
 import cucumber.annotation.en.Given;
 import specs.TestSupport;
@@ -11,10 +11,10 @@ public class HelpSteps {
     private FileContext context;
     public HelpSteps(FileContext context) { this.context = context; }
 
-    @Given("^I opened the help view in the Swedish 123 app$")
-    public void I_opened_the_help_view_in_the_Swedish_123_app() throws IOException {
+    @Given("^I opened the help view in the Swedish ABC app$")
+    public void I_opened_the_help_view_in_the_Swedish_ABC_app() throws IOException {
 
-        String path = "\\BabyMozSwedish123\\assets\\help.html";
+        String path = "\\BabyMozSwedishAbc\\assets\\help.html";
         String text = TestSupport.readFile(path);
 
         context.setText(text);

@@ -1,4 +1,4 @@
-package specs.junit.babymozswedish123;
+package specs.junit.babymozswedishabc;
 
 import com.hoffenkloffen.babymoz.core.Set;
 import com.hoffenkloffen.babymoz.core.Symbol;
@@ -17,7 +17,7 @@ public class When_load_Set extends Given_ResourceLoader {
 
     protected void when() throws Exception {
 
-        String path = "\\BabyMozSwedish123\\res\\xml\\set.xml";
+        String path = "\\BabyMozSwedishAbc\\res\\xml\\set.xml";
         XmlPullParser parser = TestSupport.getXmlPullParser(path);
 
         set = loader.loadSet(parser);
@@ -38,11 +38,11 @@ public class When_load_Set extends Given_ResourceLoader {
     }
 
     @Test
-    public void then_the_set_should_include_10_symbols() {
+    public void then_the_set_should_include_29_symbols() {
 
-        assertEquals(10 + 1, set.getItems().size()); // one welcome
+        assertEquals(29 + 1, set.getItems().size()); // one welcome
 
-        for (int i = 1; i < 10; i++) {
+        for (int i = 1; i < 29; i++) {
             Symbol symbol = (Symbol) set.getItems().get(i).getContent();
             assertNotNull(symbol);
         }
