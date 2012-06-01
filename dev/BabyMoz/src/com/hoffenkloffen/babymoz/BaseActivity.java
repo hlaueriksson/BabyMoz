@@ -73,7 +73,7 @@ public abstract class BaseActivity extends Activity implements UpdateManager, Re
         // NOTE: do not use anonymous inner class, as it will become the target of garbage collection
         preferenceListener = new SharedPreferences.OnSharedPreferenceChangeListener() {
             public void onSharedPreferenceChanged(SharedPreferences sharedPreferences, String key) {
-                load(); // NOTE: restart after reconfiguration
+                reload(); // NOTE: restart after reconfiguration
                 Log.d(TAG, "onSharedPreferenceChanged");
             }
         };
@@ -109,7 +109,7 @@ public abstract class BaseActivity extends Activity implements UpdateManager, Re
         int id = item.getItemId();
 
         if (id == R.id.menu_restart) {
-            load();
+            reload();
         } else if (id == R.id.menu_about) {
             intent = new Intent(getBaseContext(), AboutActivity.class);
             startActivity(intent);
@@ -153,6 +153,13 @@ public abstract class BaseActivity extends Activity implements UpdateManager, Re
         loadResources();
 
         update(); // NOTE: displays the first screen
+    }
+
+    private void reload() {
+
+        if(audioManager != null) audioManager.release(); // clean up
+
+        load();
     }
 
     protected void loadPreferences()
