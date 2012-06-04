@@ -49,8 +49,8 @@ public class When_initiated extends Given_Library
             if(screen.getContent() instanceof Welcome) continue;
 
             assertNotNull(screen.getStyle());
-            assertTrue(screen.getStyle().getBackgroundColor() > 0);
-            assertTrue(screen.getStyle().getTextColor() > 0);
+            assertTrue(screen.getStyle().getBackgroundColor() != 0);
+            assertTrue(screen.getStyle().getTextColor() != 0);
         }
     }
 

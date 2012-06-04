@@ -6,6 +6,7 @@ import com.hoffenkloffen.babymoz.core.*;
 import org.mockito.Mockito;
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
 import org.xmlpull.v1.XmlPullParserFactory;
@@ -105,6 +106,12 @@ public class TestSupport {
 
         XPath xpath = XPathFactory.newInstance().newXPath();
         return (Node) xpath.evaluate(expression, document, XPathConstants.NODE);
+    }
+
+    public static NodeList getNodes(Document document, String expression) throws XPathExpressionException {
+
+        XPath xpath = XPathFactory.newInstance().newXPath();
+        return (NodeList) xpath.evaluate(expression, document, XPathConstants.NODESET);
     }
 
     public static FakeBaseActivity fakeBaseActivity() {

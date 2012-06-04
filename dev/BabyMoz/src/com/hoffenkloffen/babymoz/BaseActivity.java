@@ -15,20 +15,20 @@ import org.xmlpull.v1.XmlPullParserException;
 import java.io.IOException;
 
 // TODO:
-// Draw welcome, icon
-// Record sound
-// About, Help; html content
-// Google Play
-// Gradle dependencies
-// ignore.git
-// Github
-// Color contrast
 // animation; bounce
 // ViewPager
+// Gradle dependencies
 
 // DONE:
 // splash screen / images
 // Media volume control
+// Draw welcome, icon
+// Record sound
+// About, Help; html content
+// Google Play
+// ignore.git
+// Github
+// Color contrast
 
 public abstract class BaseActivity extends Activity implements UpdateManager, ResourceManager
 {

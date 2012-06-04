@@ -113,7 +113,9 @@ public class Library {
         style.setBackgroundColor(getRandomColor());
         style.setTextColor(getRandomColor());
 
-        return style.hasValidContrast() ? style : Style.getDefault();
+        if(!style.hasValidContrast()) style.resetTextColor();
+
+        return style;
     }
 
     private int getRandomColor() {
