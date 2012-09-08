@@ -1,0 +1,1 @@
+adb -d uninstall com.hoffenkloffen.babymoz.cantonese123

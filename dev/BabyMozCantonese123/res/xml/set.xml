@@ -1,0 +1,14 @@
+<set description="Cantonese numbers 1 - 10" locale="zh_hk">
+    <audio filename="set" duration="2000" />
+    <welcome filename="welcome" />
+    <symbol text="一" />
+    <symbol text="二" />
+    <symbol text="三" />
+    <symbol text="四" />
+    <symbol text="五" />
+    <symbol text="六" />
+    <symbol text="七" />
+    <symbol text="八" />
+    <symbol text="九" />
+    <symbol text="十" />
+</set>
