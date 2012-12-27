@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- activity -->
+    <string name="activity_MainPreferenceActivity_label">Inställningar</string>
+    <string name="activity_AboutActivity_label">Om</string>
+    <string name="activity_HelpActivity_label">Hjälp</string>
+    <!-- menu -->
+    <string name="menu_restart_title">Starta om</string>
+    <string name="menu_about_title">Om</string>
+    <string name="menu_help_title">Hjälp</string>
+    <string name="menu_preferences_title">Inställningar</string>
+    <!-- preference -->
+    <string name="preference_audio_title">Ljud</string>
+    <string name="preference_audio_summary">Aktivera ljud</string>
+    <string name="preference_animation_title">Animationer</string>
+    <string name="preference_animation_summary">Aktivera animationer</string>
+    <string name="preference_shuffle_title">Slumpvis uppspelning</string>
+    <string name="preference_shuffle_summary">Aktivera slumpvis uppspelning</string>
+</resources>

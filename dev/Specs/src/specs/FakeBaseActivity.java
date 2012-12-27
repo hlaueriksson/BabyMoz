@@ -47,9 +47,4 @@ public class FakeBaseActivity extends BaseActivity {
     {
         return library;
     }
-
-    @Override
-    protected String getPackage() {
-        return null;
-    }
 }

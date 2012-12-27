@@ -14,7 +14,9 @@ public class HelpActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.help);
 
+        String url = String.format("file:///android_asset/%s/help.html", getString(R.string.locale));
+
         html = (WebView)findViewById(R.id.help);
-        html.loadUrl("file:///android_asset/help.html");
+        html.loadUrl(url);
     }
 }

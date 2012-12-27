@@ -24,9 +24,4 @@ public class MainActivity extends BaseActivity {
 
         init();
     }
-
-    @Override
-    protected String getPackage() {
-        return "com.hoffenkloffen.babymoz.cantonese123";
-    }
 }

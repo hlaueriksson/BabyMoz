@@ -1,4 +1,5 @@
 <resources>
+    <string name="locale">en</string>
     <integer name="anim_duration_short">500</integer>
     <integer name="anim_duration_medium">750</integer>
     <integer name="anim_duration_long">1000</integer>

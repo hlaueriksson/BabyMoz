@@ -306,7 +306,7 @@ public abstract class BaseActivity extends Activity implements UpdateManager, Re
 
         if(resource.getResId() > 0) return resource.getResId();
 
-        return getApplicationContext().getResources().getIdentifier(resource.getFilename(), resource.getType(), getPackage());
+        return getApplicationContext().getResources().getIdentifier(resource.getFilename(), resource.getType(), getApplicationContext().getPackageName());
     }
 
     @Override
@@ -314,8 +314,6 @@ public abstract class BaseActivity extends Activity implements UpdateManager, Re
 
         return AnimationUtils.loadAnimation(getApplicationContext(), getResId(animation)); // TODO: cache animations?
     }
-
-    protected abstract String getPackage();
 
     //</editor-fold>
 }

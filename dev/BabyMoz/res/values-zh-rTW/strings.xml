@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- activity -->
+    <string name="activity_MainPreferenceActivity_label">設置</string>
+    <string name="activity_AboutActivity_label">關於</string>
+    <string name="activity_HelpActivity_label">幫助</string>
+    <!-- menu -->
+    <string name="menu_restart_title">重新開始</string>
+    <string name="menu_about_title">關於</string>
+    <string name="menu_help_title">幫助</string>
+    <string name="menu_preferences_title">設置</string>
+    <!-- preference -->
+    <string name="preference_audio_title">音頻</string>
+    <string name="preference_audio_summary">啟用音頻</string>
+    <string name="preference_animation_title">動畫</string>
+    <string name="preference_animation_summary">啟用動畫</string>
+    <string name="preference_shuffle_title">隨機播放</string>
+    <string name="preference_shuffle_summary">啟用隨機播放</string>
+</resources>

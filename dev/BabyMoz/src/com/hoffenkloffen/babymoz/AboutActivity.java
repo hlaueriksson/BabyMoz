@@ -14,7 +14,9 @@ public class AboutActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.about);
 
+        String url = String.format("file:///android_asset/%s/about.html", getString(R.string.locale));
+
         html = (WebView)findViewById(R.id.about);
-        html.loadUrl("file:///android_asset/about.html");
+        html.loadUrl(url);
     }
 }
