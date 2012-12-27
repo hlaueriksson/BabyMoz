@@ -109,6 +109,8 @@ public class Library {
 
     private Style generateStyle() { // TODO: this should be moved somewhere else
 
+        if(!hasValidColors()) return Style.getDefault();
+
         Style style = new Style();
         style.setBackgroundColor(getRandomColor());
         style.setTextColor(getRandomColor());
@@ -120,14 +122,21 @@ public class Library {
 
     private int getRandomColor() {
 
-        if(colors == null) return 0;
-        if(colors.length == 0) return 0;
+        if (!hasValidColors()) return 0;
 
         Random random = new Random();
         int length = colors.length;
         int i = random.nextInt(length); // NOTE: exclusive
 
         return colors[i];
+    }
+
+    private boolean hasValidColors() {
+
+        if (colors == null) return false;
+        if (colors.length == 0) return false;
+
+        return true;
     }
 
     private Audio generateAudio(Screen screen) {

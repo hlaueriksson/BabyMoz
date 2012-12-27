@@ -14,7 +14,7 @@ public class HelpSteps {
     @Given("^I opened the help view in the Swedish ABC app$")
     public void I_opened_the_help_view_in_the_Swedish_ABC_app() throws IOException {
 
-        String path = "\\BabyMozSwedishAbc\\assets\\help.html";
+        String path = "\\BabyMozSwedishAbc\\assets\\en\\help.html";
         String text = TestSupport.readFile(path);
 
         context.setText(text);
